@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zhang_events/static/css/main.848af58c.css",
+    "main.js": "/zhang_events/static/js/main.2e3edf6a.js",
+    "static/js/787.a17929ca.chunk.js": "/zhang_events/static/js/787.a17929ca.chunk.js",
+    "index.html": "/zhang_events/index.html",
+    "main.848af58c.css.map": "/zhang_events/static/css/main.848af58c.css.map",
+    "main.2e3edf6a.js.map": "/zhang_events/static/js/main.2e3edf6a.js.map",
+    "787.a17929ca.chunk.js.map": "/zhang_events/static/js/787.a17929ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.848af58c.css",
+    "static/js/main.2e3edf6a.js"
+  ]
+}
