@@ -1,0 +1,49 @@
+/* Events.scss */
+.events {
+
+    .events-title{
+        text-align: left;
+        font-size: 2.4em;
+        font-weight: 900;
+        font-family: Avenir;
+        color: #000;
+        margin: 0;
+        padding-bottom: 0.6em;
+    }
+
+    .filters {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; /* Allow filters to wrap to the next row on smaller screens */
+      justify-content: flex-start;
+      margin-bottom: 1.8em;
+  
+      label {
+        font-size: 1em;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+      }
+  
+      select {
+        padding: 0.4em 0.8em;
+        font-size: 16px;
+        margin-right: 1.2em; /* Add spacing between filter columns */
+        margin-left: 1.2em; /* Add spacing between filter columns */
+        border-radius: 0.2em;
+        border: 0;
+        outline: 1px solid;
+        border-right: 0.6em solid transparent;
+      }
+    }
+
+    .event-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Display two cards in a row for desktop view */
+        gap: 1.8em; /* Add spacing between cards */
+    
+        @media (max-width: 768px) {
+        grid-template-columns: 1fr; /* Display one card in a row for phone view */
+        }
+    }
+}
+  
